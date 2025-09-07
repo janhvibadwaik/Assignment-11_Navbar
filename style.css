@@ -1,0 +1,60 @@
+body {
+            margin: 0;
+            padding: 0;
+            background-color: #eee;
+        }
+        .card {
+            position: fixed;
+            left: 10px;
+            right: 10px;
+            margin: 0 auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .card.whatsapp {
+            top: 10px;
+        }
+        .card.insta {
+            bottom: 10px;
+        }
+        .nav-bar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .insta-nav {
+            background-color: #e4e9ed;
+        }
+        .whatsapp-nav {
+            background-color: #192229;
+        }
+        .icon {
+            height: 30px;
+            width: 30px;
+            margin: 10px 20px;
+            border-radius: 50%;
+            transition:0.3s;
+        }
+        .icon-insta {
+            padding: 10px;
+            transition: all 0.3s ease;
+            border-radius: 50%;
+        }
+        .icon-insta:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+            transform: scale(1.08);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+        .icon-whatsapp {
+            padding: 10px 15px;
+            background-color: transparent;
+            transition: 0.3s;
+        }
+        .icon-whatsapp:hover {
+            box-shadow: 0 0 5px 0 #4ed551;
+            background-color: rgba(78, 213, 81, 0.1);
+            border-radius: 30px;
+            transform: scale(1.1);
+        }
